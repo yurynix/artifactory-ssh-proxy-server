@@ -1,0 +1,17 @@
+{
+  "name": "artifactory-ssh-proxy-server",
+  "version": "1.0.0",
+  "description": "Artifactory ssh proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.20.2",
+    "fastify-http-proxy": "^6.2.0",
+    "ssh2": "^1.4.0",
+    "string-replace-stream": "0.0.2"
+  }
+}

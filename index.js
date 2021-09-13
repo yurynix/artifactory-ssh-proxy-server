@@ -6,25 +6,6 @@ const Ajv = require("ajv");
 const { startServer } = require('./server');
 
 const CONFIG_FILE_NAME = '.artifactory-ssh-proxy.json';
- // options can be passed, e.g. {allErrors: true}
-
-// const UPSTREAM_REGISTRY_METDATA_URL = new URL("https://npm.dev.wixpress.com/");
-// const UPSTREAM_TAR_BALL_SERVER_URL = new URL("https://repo.dev.wixpress.com/");
-// const LISTEN_PORT = process.env.LISTEN_PORT
-//   ? parseInt(process.env.LISTEN_PORT, 10)
-//   : 9000;
-// const REMOTE_PORT = process.env.REMOTE_PORT
-//   ? parseInt(process.env.REMOTE_PORT, 10)
-//   : 8080;
-
-// const sshConfig = {
-//     host: "3.66.228.199",
-//     port: 22,
-//     username: "ubuntu",
-//     privateKey: fs.readFileSync("/Users/yurym/.ssh/yurynix-frankfurt.pem"),
-//     //debug: st => console.log('ssh', st),
-// };
-// // --- end of config ---
 
 const configSchema = {
   $id: "https://proxy-server.com/schema.json",

@@ -1,6 +1,6 @@
 {
   "name": "artifactory-ssh-proxy-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Artifactory ssh proxy server",
   "main": "index.js",
   "scripts": {
